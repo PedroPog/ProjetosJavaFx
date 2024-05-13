@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef71f7a-361c-4c3a-b626-31f523fb9aaf" name="Changes" comment="AnchorPanel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/TesteBorderPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/TesteFlowPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/TesteGridPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/TesteStackPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/TesteTilePane.java" afterDir="false" />
+    <list default="true" id="5ef71f7a-361c-4c3a-b626-31f523fb9aaf" name="Changes" comment="Layouts estudos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/AppFXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/Login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/AppLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/AppLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/layout/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -36,9 +35,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gPu0oecwXiC2ha7lXWmVd72yEZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,31 +46,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AppLayout.executor": "Run",
-    "Application.Contador.executor": "Run",
-    "Application.PrimeiroFx.executor": "Run",
-    "Application.Wizard.executor": "Run",
-    "Application.com.estudos.projetos.Wizard.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/desenvolvimento/dev/javafx-sdk-17.0.11/lib/javafx-swt.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AppFXML.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Contador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeiroFx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wizard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.estudos.projetos.Wizard.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/desenvolvimento/dev/javafx-sdk-17.0.11/lib/javafx-swt.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
       <recent name="$PROJECT_DIR$/src/main/resources/styles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppLayout">
+  <component name="RunManager" selected="Application.AppFXML">
+    <configuration name="AppFXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.fxml.AppFXML" />
+      <module name="Contador" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.estudos.projetos.fxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.layout.AppLayout" />
       <module name="Contador" />
@@ -126,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppFXML" />
         <item itemvalue="Application.AppLayout" />
         <item itemvalue="Application.Wizard" />
         <item itemvalue="Application.Contador" />
@@ -158,13 +173,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715622380448</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Layouts estudos">
+      <option name="closed" value="true" />
+      <created>1715625958167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715625958167</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Curso de Fx inicio!" />
     <MESSAGE value="AnchorPanel" />
-    <option name="LAST_COMMIT_MESSAGE" value="AnchorPanel" />
+    <MESSAGE value="Layouts estudos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layouts estudos" />
   </component>
 </project>

@@ -1,0 +1,14 @@
+.login{
+    -fx-background: #6282ec;
+}
+.login-titulo{
+    -fx-font-size:24px;
+    -fx-text-fill:#fff;
+}
+.login-form-label{
+    -fx-font-size:16px;
+    -fx-text-fill:#fff;
+}
+.login-form-botao{
+    -fx-font-size:16px;
+}
