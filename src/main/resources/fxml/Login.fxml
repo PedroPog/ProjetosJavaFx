@@ -8,7 +8,7 @@
           fx:controller="com.estudos.projetos.fxml.LoginController"
           styleClass="login" hgap="15" vgap="15">
     <padding>
-        <Insets left="40" right="40" top="40"/>
+        <Insets left="40" right="40" top="40" bottom="40"/>
     </padding>
 
     <columnConstraints>
@@ -20,7 +20,12 @@
 
     <Label styleClass="login-titulo"
            GridPane.columnIndex="0" GridPane.rowIndex="0"
-           GridPane.columnSpan="2" GridPane.halignment="CENTER">Seja Bem Vindo!</Label>
+           GridPane.columnSpan="2" GridPane.halignment="CENTER">
+        Seja Bem Vindo!
+        <GridPane.margin>
+            <Insets top="20" bottom="20"/>
+        </GridPane.margin>
+    </Label>
     <Label styleClass="login-form-label"
            GridPane.columnIndex="0" GridPane.rowIndex="1">E-mail: </Label>
     <TextField fx:id="emailField"
@@ -32,5 +37,10 @@
 
     <Button GridPane.columnIndex="0" styleClass="login-form-botao"
             GridPane.rowIndex="3" onAction="#entrar"
-            GridPane.halignment="CENTER" GridPane.columnSpan="2">Entrar</Button>
+            GridPane.halignment="CENTER" GridPane.columnSpan="2">
+        Entrar
+        <GridPane.margin>
+            <Insets top="20" bottom="20"/>
+        </GridPane.margin>
+    </Button>
 </GridPane>

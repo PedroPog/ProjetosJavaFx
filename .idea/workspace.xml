@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef71f7a-361c-4c3a-b626-31f523fb9aaf" name="Changes" comment="Layouts estudos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/AppFXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/Login.css" afterDir="false" />
+    <list default="true" id="5ef71f7a-361c-4c3a-b626-31f523fb9aaf" name="Changes" comment="Inicio de estudos fxml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/AppCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/BarraTitulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/Botao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/calculadora/Teclado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/Calculadora.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudos/projetos/fxml/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +90,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources/styles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppFXML">
+  <component name="RunManager" selected="Application.AppCalculadora">
+    <configuration name="AppCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.calculadora.AppCalculadora" />
+      <module name="Contador" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.estudos.projetos.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppFXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.fxml.AppFXML" />
       <module name="Contador" />
@@ -112,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeiroFx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.PrimeiroFx" />
-      <module name="Contador" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.estudos.projetos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Wizard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudos.projetos.Wizard" />
       <module name="Contador" />
@@ -140,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppCalculadora" />
         <item itemvalue="Application.AppFXML" />
         <item itemvalue="Application.AppLayout" />
         <item itemvalue="Application.Wizard" />
         <item itemvalue="Application.Contador" />
-        <item itemvalue="Application.PrimeiroFx" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715625958167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inicio de estudos fxml">
+      <option name="closed" value="true" />
+      <created>1715631666378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715631666378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +215,7 @@
     <MESSAGE value="Curso de Fx inicio!" />
     <MESSAGE value="AnchorPanel" />
     <MESSAGE value="Layouts estudos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layouts estudos" />
+    <MESSAGE value="Inicio de estudos fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio de estudos fxml" />
   </component>
 </project>
